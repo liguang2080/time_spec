@@ -1,9 +1,7 @@
+# -*- encoding : utf-8 -*-
 require File.expand_path(File.dirname(__FILE__) + "/time_spec/version")
 
-# -*- encoding : utf-8 -*-
-
 module TimeSpec
-
   class << self
     attr_accessor :base_time
   end
